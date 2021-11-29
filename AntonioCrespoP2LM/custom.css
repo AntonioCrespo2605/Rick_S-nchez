@@ -33,6 +33,9 @@ body{
     font-size: large; 
     color: rgb(144, 255, 116);
 }
+#seleccionado{
+    background-color: rgb(226, 117, 248);
+}
 #fondoaz h1{
     text-align: center;
 }
