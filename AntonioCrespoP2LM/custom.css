@@ -1,17 +1,14 @@
 body{
     background-image: url(src/fondo3.jpg);
     font-family:"Comic Sans MS", "Comic Sans", cursive, Arial, Helvetica, sans-serif;
+    
+    background-size: 100vw 100vh;
     }
-#fondoaz{
-    background-color: rgb(0, 255, 221);
-    color: rgb(0, 0, 0);
-    width: 100%;
-    justify-content: space-between;
-    }
+
 #menu{
     background-color: rgb(226, 30, 226);
-    padding: 10;
     width: 100%;
+    border-radius: 15px;
     }
 #menu ul{
     list-style-type: none;
@@ -21,38 +18,103 @@ body{
     }
 #menu ul li{
     display: inline-block; 
-    width: 22%;
+    width: 24%;
 }
 #menu ul li a{
     color: white; 
     text-decoration: none; 
     display: block; 
     padding: 20px;}
-#menu ul li a:hover{/*itinererios*/
+#menu ul li a:hover{
     background-color: blue; 
-    font-size: large; 
     color: rgb(144, 255, 116);
 }
 #seleccionado{
     background-color: rgb(226, 117, 248);
 }
-#fondoaz h1{
+h1{
     text-align: center;
 }
-#parr1{
-    vertical-align: top;
-    width: 75%;
-    
+
+.cuerpo{
+background-color: #29e6ff;
+margin: 0;
+padding: 0;
+width: 100%;
+border-radius: 15px;
 }
-#img1{
-    width: 25%;
+.parrafo{
+    display: flex;
 }
-#itinererios{
+.parrafo p{
+    text-align: center;
+
+}
+.cuerpo p{
+    margin-left: 5%;
+    line-height: 2;
+}
+.parrafo img{
+    width: 200px;
+    margin-right: 5%;
+    float: left;
+}
+p::selection{
+    background: greenyellow;
+    color: purple;
+}
+.cuerpo h2{
+    margin-left: 10%;
+}
+
+#grande nav{
+    display:inline-block ;
+    text-align: center;
+    width: 33%;
+}
+#grande nav img{
+    width: 200px;
+}
+#grande p{
+    background-color: rgb(16, 141, 0);
+    color: white;
+    border-radius: 30%;
+}
+footer{
+    margin-top: 2%;
+    background-color:  rgb(226, 30, 226);
+    width: 100%;
+    color: white;
+}
+footer div {
+    display: inline-block;
+}
+#menu2{
+    width: 20%;
+    margin: 0;
+    padding: 0;
+    margin-top: 2%;
+}
+#datos{
     padding: 0;
     margin: 0;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    width: 74%;
 }
-#itinererios div{
-    display: table-cell;
+#menu2 ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    }
+#menu2 ul li a{
+    color: white; 
+    text-decoration: none; 
+    display: block; 
+    padding: 7px;
 }
-
-
+#menu2 ul li a:hover{
+    background-color: rgb(0, 119, 255); 
+    color: rgb(144, 255, 116);
+}
